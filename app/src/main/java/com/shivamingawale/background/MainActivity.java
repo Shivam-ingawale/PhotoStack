@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     EditText editText;
     TextView explore;
-    String API_KEY="23020542-768062325396fe8c68933a4f9";
+    String API_KEY="YourApiKey";
     ArrayList<String> queryList =new ArrayList<>();
 
     RequestQueue requestQueue;
