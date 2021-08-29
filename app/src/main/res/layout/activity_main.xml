@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/editTextSubHeading"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+      <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/explore"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:focusable="true"
+                    android:paddingBottom="20dp"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="25dp">
+
+                    <TextView
+                        android:id="@+id/explore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/explore"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/edit"
+                        android:textStyle="bold|italic" />
+
+                    <ImageButton
+                        android:id="@+id/likeActivityButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/deepBlue"
+                        android:src="@drawable/ic_baseline_add_circle_24"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/edit"
+                        android:contentDescription="@string/search_for_an_image" />
+
+                    <EditText
+                        android:id="@+id/edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="45dp"
+                        android:layout_marginEnd="0dp"
+                        android:background="@drawable/search_bar_drawable"
+                        android:drawableEnd="@drawable/ic_round_search_24"
+                        android:hint="@string/search_for_an_image"
+                        android:inputType="textAutoCorrect|text"
+                        android:padding="5dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+                        android:imeOptions="actionSearch"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/likeActivityButton" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <EditText-->
+<!--                    android:id="@+id/edit"-->
+
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="2dp"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:background="@drawable/search_bar_drawable"-->
+<!--                    android:drawableEnd="@drawable/search_button"-->
+<!--                    android:hint="@string/search_for_an_image"-->
+<!--                    android:inputType="textAutoCorrect|text"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textColorHint="@color/white"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:textStyle="italic"-->
+<!--                    ></EditText>-->
+
+            </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

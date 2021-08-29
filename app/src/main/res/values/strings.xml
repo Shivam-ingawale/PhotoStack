@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Background</string>
+    <string name="app_name_new">PhotoStack</string>
+    <string name="title">title</string>
+    <string name="explore">Explore</string>
+    <string name="search_for_an_image">search for an image...</string>
+    <string name="not_found">Not Found </string>
+    <string name="_125">125</string>
+    <string name="tags">tags</string>
+    <string name="favorites">Favorites</string>
+</resources>
