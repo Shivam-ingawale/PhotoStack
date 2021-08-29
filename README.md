@@ -37,11 +37,11 @@ Favorite Section allow user to access their liked images. Explore section helps 
 * Artwork - Adobe Xd
 
 ## Downloads
-* [Download Apk](https://github.com/Shivam-ingawale/ShrinkLive-Android-Game/blob/main/ShrinkLife.apk) this is in a runnable .apk format so you must have to download and get it installed. 
+* [Download Apk](https://github.com/Shivam-ingawale/PhotoStack/releases/tag/untagged-33da7b7c547e848a704c) this is in a runnable .apk format so you must have to download and get it installed. 
 
 
 
 ## License
-* This project is licensed under the [MIT License](https://github.com/Shivam-ingawale/ShrinkLive-Android-Game/blob/master/LICENSE).
+* This project is licensed under the [MIT License](https://github.com/Shivam-ingawale/PhotoStack/blob/master/LICENSE).
 #
 * Although the project is complete, some parameters have not yet been tweaked to provide an optimum experience.
