@@ -7,7 +7,7 @@
   PhotoStack App fetches Premium Images from Pixabay API and has the functionality of liking the images, which uses Firebase Cloud Firestore (Realtime Global Database) to store the data of liked images, and it can be accessed in the “favorite” section of the App.
   
 <h1 align="center">
-  <img src="https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/video.gif"  width="240" />
+  <img src=""  width="240" />
 </h1>
 
 ## Intro
